@@ -9,6 +9,7 @@ export default function DogTemplate({ pageContext: { dog } }) {
       <SEO title={`${dog.name} - ${dog.breed}`} />
       <h1>Dog details</h1>
       <h4>{dog.name} - {dog.breed}</h4>
+      <img src={dog.image} />
     </Layout>
   )
 }

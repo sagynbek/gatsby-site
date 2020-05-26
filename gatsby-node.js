@@ -14,11 +14,13 @@ exports.createPages = ({ actions }) => {
       slug: "fido",
       name: "Fido",
       breed: "Sheltie",
+      image: "https://resize.hswstatic.com/w_907/gif/smilingdog-1.jpg",
     },
     {
       slug: "sparky",
       name: "Sparky",
       breed: "Corgi",
+      image: "https://www.dogstrust.org.uk/dogimages/1221207_sparky_20191213024809_sparky-b_800.jpg",
     },
   ]
   

@@ -620,3 +620,10 @@ pre tt:after {
     font-size: 100%;
   }
 }
+
+#footer-navigation{
+  text-decoration: none;
+}
+#footer-navigation li{
+  margin-bottom: 0px;
+}
